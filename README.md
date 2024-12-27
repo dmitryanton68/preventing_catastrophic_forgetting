@@ -5,5 +5,5 @@ __ARTICLE:__
 Antonov, D., Sukhov, S. Prevention mechanisms of Catastrophic Forgetting in Spiking Neural Networks. XXIV International Conference on Artificial Neural Networks NEUROINFORMATICS-2022, p.55-64
 ***
 Abstract:    
-Artificial neural networks experience catastrophic forgetting during sequential learning. The peculiarities of spiking neural networks (SNNs) provide additional mechanisms for mitigating of catastrophic forgetting. In this paper, we study the effect of lateral inhibition and proper account of neurons’ importance for catastrophic forgetting prevention in SNNs. The experiments were performed on freely available datasets in the SpykeTorch framework.
+Artificial neural networks experience catastrophic forgetting during sequential learning. The peculiarities of spiking neural networks (SNNs) provide additional mechanisms for mitigating of catastrophic forgetting. In this paper, we study the effect of lateral inhibition and proper account of neurons’ importance for catastrophic forgetting prevention in SNNs. The experiments were performed on freely available datasets in the [SpykeTorch](https://github.com/miladmozafari/SpykeTorch) framework.
 ***
