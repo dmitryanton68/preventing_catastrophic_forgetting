@@ -2,6 +2,7 @@
 The code illustrates [the result reported at the XXIV International Conference on Artificial Neural Networks NEUROINFORMATICS-2022](https://www.researchgate.net/publication/368316712_Prevention_mechanisms_of_Catastrophic_Forgetting_in_Spiking_Neural_Networks_in_Russian) at MIPhT (Moscow Institute of Physics and Technology), Moscow, Russia.
 
 __ARTICLE:__     
+
 Antonov, D., Sukhov, S. Prevention mechanisms of Catastrophic Forgetting in Spiking Neural Networks. XXIV International Conference on Artificial Neural Networks NEUROINFORMATICS-2022, p.55-64
 ***
 Abstract:    
