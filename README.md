@@ -18,8 +18,11 @@ __The algorithm for preventing catastrophic forgetting__ is as follows:
 
 __Stage I.__ training on the initial dataset in the usual way   
 
-__Stage II.__ continue training on the initial set with the addition of Gaussian noise:
-__∆𝑤<sub>𝑖𝑗</sub>=𝐹(𝑤<sub>𝑖𝑗</sub>)+ 𝜎𝑁(0,1)__ ,    where
+__Stage II.__ continue training on the initial set with the addition of Gaussian noise:     
+
+__∆𝑤<sub>𝑖𝑗</sub>=𝐹(𝑤<sub>𝑖𝑗</sub>)+ 𝜎𝑁(0,1)__ ,      
+
+where    
 - ∆𝑤<sub>𝑖𝑗</sub> is weight change (indices 𝑖 and 𝑗 are indicated post- and pre-synaptic neurons)
 - 𝐹(𝑤<sub>𝑖𝑗</sub>) determines the magnitude of the change in the relationship between 𝑖 and 𝑗 neurons
 - 𝑁(0,1) is standard normal distribution
@@ -34,7 +37,7 @@ __Stage IV.__ training on a new dataset with a limited range of variation of the
 
 __Figure:__ typical trajectory of weight wandering (Brownian walk). The histogram on the right side of the graph is the probability distribution.
 ***
-#### Comparative results
+### Comparative results
 
 ![comparative results](4_graphs_colour_English.jpg)
 __Figure:__ classification accuracy of <span style='color: red;'> MNIST digits (red dashed line)</span> and <span style='color: blue;'>EMNIST letters (blue solid line)</span> during training for Problem 2 in the case of:    
@@ -43,7 +46,7 @@ __Figure:__ classification accuracy of <span style='color: red;'> MNIST digits (
 (c) lateral inhibition    
 (d) weight importance    
 ***
-#### Results
+### Results
 
 - The presence of catastrophic forgetting in SNNs indicates that just the encoding of information by spikes does not solve the catastrophic forgetting problem
 
