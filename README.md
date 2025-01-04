@@ -43,7 +43,7 @@ __Figure:__ typical trajectory of weight random movement (Brownian motion). The 
 ### Comparative results
 
 ![comparative results](4_graphs_colour_English.jpg)
-__Figure:__ classification accuracy of <span style='color: red;'>MNIST digits (red dashed line)</span> and <span style='color: blue;'>EMNIST letters (blue solid line)</span> during training for Problem 2 in the case of:    
+__Figure:__ classification accuracy of <span style='color: red'>_MNIST digits (red dashed line)_</span> and <span style='color: blue'>_EMNIST letters (blue solid line)_</span> during training for Problem 2 in the case of:    
 (a) catastrophic forgetting    
 (b) joint training on two datasets    
 (c) lateral inhibition    
